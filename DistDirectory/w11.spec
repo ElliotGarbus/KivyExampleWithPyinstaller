@@ -2,7 +2,7 @@
 
 from kivy_deps import sdl2, glew
 app_name = 'Sample App from Pyinstaller'
-win_icon = None
+win_icon = None  # name of window icon file here
 block_cipher = None
 
 
