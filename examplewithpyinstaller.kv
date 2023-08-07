@@ -1,0 +1,13 @@
+BoxLayout:
+    orientation: 'vertical'
+    AnchorLayout
+        Button:
+            size_hint: None, None
+            size: dp(200), dp(48)
+            text: 'Say Hello'
+            on_release: label.say_hello()
+    HelloLabel:
+        id: label
+        size_hint_y: None
+        height: dp(48)
+        text: 'Nice to meet you'
