@@ -10,7 +10,7 @@ a = Analysis(
     ['..\\main.py'],
     pathex=[],
     binaries=[],
-    datas=[('../*.kv', '.')],
+    datas=[('../*.kv', '.')],  # modify as required
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},

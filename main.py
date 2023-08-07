@@ -1,5 +1,9 @@
+import sys
 import os
-os.environ['KIVY_NO_CONSOLELOG'] = '1'
+
+# if getattr(sys, 'frozen', False) and hasattr(sys, '_MEIPASS'):
+#     # turn off the console log if the app is frozen
+#     os.environ['KIVY_NO_CONSOLELOG'] = '1'
 
 from kivy.app import App
 from kivy.uix.label import Label
